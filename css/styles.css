@@ -1,0 +1,226 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.35;
+    padding-bottom: 30px;
+    color: antiquewhite;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*****************id selector*************/
+#title{
+    background-color: #FD3A73;
+    text-align: left;
+    height: 600px
+}
+
+#features{
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat';
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #E96479;
+    color: antiquewhite;
+}
+
+#press{
+    background: #E96479;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+#cta{
+    text-align: center;
+    background-color: #FD3A73;
+    padding-bottom: 90px;
+    margin: ;
+}
+
+#footer{
+    text-align: center;
+    padding: 100px 0;
+    font-size: smaller;
+    margin-left: ;
+}
+
+#true-love{
+    font-weight: bold;
+    width: 860px;
+    margin: auto;
+    padding-bottom: 60px;
+    color: white;
+    font-size: 3rem;
+}
+
+#copyright{
+    margin-top: 30px;
+}
+
+#cta{
+    padding: 100px;
+}
+
+/************class selector**************/
+
+.check{
+    font-size: 50px;
+    color: #E96479;
+    margin: 0 0 10px 0;
+}
+
+.check:hover{
+    font-size: 50px;
+    color: #FD3A73;
+    margin: 0 0 10px 0;
+}
+
+.bullseye{
+    font-size: 50px;
+    color: #E96479;
+    margin: 0 0 10px 0;
+}
+
+.bullseye:hover{
+    font-size: 50px;
+    color: #FD3A73;
+    margin: 0 0 10px 0;
+}
+
+.heart{
+    font-size: 50px;
+    color: #E96479;
+    margin: 0 0 10px 0;
+}
+
+.heart:hover{
+    font-size: 50px;
+    color: #FD3A73;
+    margin: 0 0 10px 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 0px;
+}
+
+.container-fluid{
+    padding: 2.5% 15%;
+}
+
+.btn{
+    width: 180px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    position: relative;
+    right: 160px;
+}
+
+.nav-item{
+    padding: 0 18px;
+    padding-left: ;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: light;
+    
+}
+
+.tindoggy{
+    transform: rotate(25deg);
+    width: 300px;
+    position: relative;
+    left: 10%;
+}
+
+.col-p{
+    width: 200px;
+    margin: auto;
+}
+
+.dog-review{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.solid-review{
+    width: 15%;
+    margin: 35px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-text{
+    line-height: 75px;
+}
+
+.card-col{
+    
+}
+
+.card{
+    
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.feature-box{
+    padding-top: 100px;
+}
+
+@media (max-width: 1028px){
+    .tindoggy{
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+.love-btn{
+    margin-left: 25px;
+}
+
+.social-link{
+    margin: 0 12px;
+}
